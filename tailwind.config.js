@@ -4,7 +4,11 @@
 module.exports = {
   content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   theme: {
-    extend: {}
+    extend: {
+      fontFamily: {
+        Heebo: ['Heebo', 'sans-serif']
+      }
+    }
   },
   plugins: []
 }
