@@ -26,8 +26,19 @@
   /* NavigationBar.vue */
 
   .hello,
-  .whoami {
+  .whoami,
+  .skills {
     @apply flex max-w-[650px] flex-col gap-10 pb-8 sm:pb-9 md:gap-14 md:pb-10;
+  }
+
+  .skills {
+    @apply w-full cursor-default select-none items-center justify-center;
+  }
+}
+
+@layer components {
+  .skill-card {
+    @apply flex h-14 w-full min-w-[200px] max-w-[240px] items-center justify-center gap-3 rounded-lg border border-gray-600 bg-[#2a2a2a] shadow-lg transition ease-in-out hover:scale-105 md:h-16 md:w-60;
   }
 }
 
@@ -55,4 +66,12 @@
   }
 
   /* AboutView.vue */
+
+  /* SkillsView.vue */
+
+  .skills-icon {
+    @apply h-6 w-6;
+  }
+
+  /* SkillsView.vue */
 }
