@@ -2,7 +2,7 @@
 
 <template>
   <main class="whoami">
-    <div class="summary text-lg">
+    <div class="summary md:text-lg">
       First of all, Hello Mate! My name is Emre and I'm 22 years old. I live in
       <a href="https://goo.gl/maps/cadu4sCBbzi4B6F98" class="whoami-link">Ankara/Turkey</a>. In the
       last years of secondary school, my interest in the world of informatics started. I've been
@@ -12,7 +12,7 @@
 
     <div class="hobbies flex flex-col gap-5">
       <span class="select-none text-sm text-gray-400">What I like to do and my hobbies are:</span>
-      <ul class="flex flex-col gap-8">
+      <ul class="flex flex-col gap-6 sm:gap-7 md:gap-8">
         <li>
           I love watching Movies and TV Series. And I like to talk to people about them. If you want
           to see the movies I watched and my watch list:

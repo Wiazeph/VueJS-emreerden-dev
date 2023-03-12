@@ -14,7 +14,7 @@
   }
 
   #app {
-    @apply container mx-auto flex flex-col items-center gap-14 py-8 px-4 sm:py-9 sm:px-8 md:gap-16 md:py-10 md:px-12 lg:gap-20 lg:px-16 xl:gap-24 xl:px-20;
+    @apply container mx-auto flex flex-col items-center gap-14 px-4 pt-8 sm:px-8 sm:pt-9 md:gap-16 md:px-12 md:pt-10 lg:gap-20 lg:px-16 xl:gap-24 xl:px-20;
   }
 
   /* NavigationBar.vue */
@@ -27,7 +27,7 @@
 
   .hello,
   .whoami {
-    @apply flex max-w-[650px] flex-col gap-10 md:gap-14;
+    @apply flex max-w-[650px] flex-col gap-10 pb-8 sm:pb-9 md:gap-14 md:pb-10;
   }
 }
 
