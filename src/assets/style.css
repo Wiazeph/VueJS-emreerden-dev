@@ -26,7 +26,7 @@
   /* NavigationBar.vue */
 
   .hello,
-  .about {
+  .whoami {
     @apply flex max-w-[650px] flex-col gap-10 md:gap-14;
   }
 }
@@ -50,7 +50,7 @@
 
   /* AboutView.vue */
 
-  .about-link {
+  .whoami-link {
     @apply underline transition ease-in-out hover:text-pink-400;
   }
 
