@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <div class="hello">
-    <h1>HELLO</h1>
+  <div class="tools">
+    <h1>TOOLS</h1>
   </div>
 </template>
