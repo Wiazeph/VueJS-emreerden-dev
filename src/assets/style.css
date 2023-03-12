@@ -3,7 +3,43 @@
 @tailwind utilities;
 
 @layer base {
+  html,
+  body,
+  #app {
+    @apply h-full w-full;
+  }
+
   body {
-    @apply font-Heebo;
+    @apply bg-[#1a1a1a] font-Heebo text-gray-50;
+  }
+
+  #app {
+    @apply container mx-auto flex flex-col items-center gap-14 py-8 px-4 sm:py-9 sm:px-8 md:gap-16 md:py-10 md:px-12 lg:gap-20 lg:px-16 xl:gap-24 xl:px-20;
+  }
+
+  /* NavigationBar.vue */
+
+  .nav-bar {
+    @apply flex select-none gap-4 md:gap-8;
+  }
+
+  .nav-bar-link {
+    @apply transition ease-in-out hover:text-pink-400;
+  }
+
+  /* NavigationBar.vue */
+
+  /* HomeView.vue */
+
+  .hello {
+    @apply flex w-full max-w-[650px] flex-col gap-10 md:gap-14;
+  }
+
+  /* HomeView.vue */
+}
+
+@layer utilities {
+  .socials-link {
+    @apply inline-block h-6 w-6 transition ease-in-out;
   }
 }
