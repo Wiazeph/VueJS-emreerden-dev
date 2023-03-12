@@ -23,6 +23,17 @@
     @apply flex select-none gap-4 md:gap-8;
   }
 
+  /* NavigationBar.vue */
+
+  .hello,
+  .about {
+    @apply flex max-w-[650px] flex-col gap-10 md:gap-14;
+  }
+}
+
+@layer utilities {
+  /* NavigationBar.vue */
+
   .nav-bar-link {
     @apply transition ease-in-out hover:text-pink-400;
   }
@@ -31,15 +42,17 @@
 
   /* HomeView.vue */
 
-  .hello {
-    @apply flex w-full max-w-[650px] flex-col gap-10 md:gap-14;
-  }
-
-  /* HomeView.vue */
-}
-
-@layer utilities {
   .socials-link {
     @apply inline-block h-6 w-6 transition ease-in-out;
   }
+
+  /* HomeView.vue */
+
+  /* AboutView.vue */
+
+  .about-link {
+    @apply underline transition ease-in-out hover:text-pink-400;
+  }
+
+  /* AboutView.vue */
 }
