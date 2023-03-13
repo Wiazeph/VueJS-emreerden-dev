@@ -6,7 +6,7 @@
       >Skills I know and currently continue to learn</span
     >
     <ul class="flex w-full flex-wrap items-center justify-center gap-6 sm:gap-7 md:gap-8">
-      <li class="skill-card">
+      <li class="skill-card animation-delay-02">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" class="skills-icon">
           <path
             fill="#E44D26"
@@ -24,7 +24,7 @@
         </svg>
         <span>HTML</span>
       </li>
-      <li class="skill-card">
+      <li class="skill-card animation-delay-04">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" class="skills-icon">
           <path
             fill="#1572B6"
@@ -50,7 +50,7 @@
         </svg>
         <span>CSS</span>
       </li>
-      <li class="skill-card">
+      <li class="skill-card animation-delay-06">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 384" class="skills-icon">
           <path
             fill="#CF649A"
@@ -59,7 +59,7 @@
         </svg>
         <span>SASS/SCSS</span>
       </li>
-      <li class="skill-card">
+      <li class="skill-card animation-delay-08">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           preserveAspectRatio="xMinYMin meet"
@@ -77,7 +77,7 @@
         </svg>
         <span>Bootstrap</span>
       </li>
-      <li class="skill-card">
+      <li class="skill-card animation-delay-10">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 54 33" class="skills-icon">
           <g clip-path="url(#prefix__clip0)">
             <path
@@ -95,7 +95,7 @@
         </svg>
         <span>Tailwind CSS</span>
       </li>
-      <li class="skill-card">
+      <li class="skill-card animation-delay-12">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           aria-label="JavaScript"
@@ -109,7 +109,7 @@
         </svg>
         <span>JavaScript</span>
       </li>
-      <li class="skill-card">
+      <li class="skill-card animation-delay-14">
         <svg viewBox="0 0 128 128" data-v-ff3ee1d1="" class="skills-icon">
           <path
             fill="#42b883"
@@ -124,7 +124,7 @@
         </svg>
         <span>Vue.js</span>
       </li>
-      <li class="skill-card">
+      <li class="skill-card animation-delay-16">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" class="skills-icon">
           <path
             fill="#F34F29"

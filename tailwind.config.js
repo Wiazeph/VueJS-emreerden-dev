@@ -7,6 +7,17 @@ module.exports = {
     extend: {
       fontFamily: {
         Heebo: ['Heebo', 'sans-serif']
+      },
+
+      keyframes: {
+        scaler: {
+          '0%, 40%, 100%': { transform: 'scale(1)' },
+          '20%': { transform: 'scale(1.05)' }
+        }
+      },
+
+      animation: {
+        scaler: 'scaler 2.3s ease-in-out infinite'
       }
     }
   },
