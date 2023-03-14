@@ -17,22 +17,12 @@
     @apply container mx-auto flex flex-col items-center gap-14 px-4 pt-8 sm:px-8 sm:pt-9 md:gap-16 md:px-12 md:pt-10 lg:gap-20 lg:px-16 xl:gap-24 xl:px-20;
   }
 
-  /* NavigationBar.vue */
-
-  .nav-bar {
-    @apply flex select-none gap-4 md:gap-8;
-  }
-
-  /* NavigationBar.vue */
-
   .hello,
   .whoami,
-  .skills {
+  .skills,
+  .projects,
+  .tools {
     @apply flex max-w-[650px] flex-col gap-10 pb-8 sm:pb-9 md:gap-14 md:pb-10;
-  }
-
-  .skills {
-    @apply w-full cursor-default select-none items-center justify-center;
   }
 }
 
@@ -45,8 +35,16 @@
 @layer utilities {
   /* NavigationBar.vue */
 
+  .nav-bar {
+    @apply flex select-none gap-4 md:gap-8;
+  }
+
   .nav-bar-link {
-    @apply transition ease-in-out hover:text-pink-400;
+    @apply transition ease-in-out hover:text-pink-300;
+  }
+
+  .nav-bar-link.router-link-active {
+    @apply text-pink-400;
   }
 
   /* NavigationBar.vue */
@@ -68,6 +66,10 @@
   /* AboutView.vue */
 
   /* SkillsView.vue */
+
+  .skills {
+    @apply w-full cursor-default select-none items-center justify-center;
+  }
 
   .skills-icon {
     @apply h-6 w-6;
