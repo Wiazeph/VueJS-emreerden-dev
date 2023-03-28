@@ -22,7 +22,7 @@
   .skills,
   .projects,
   .tools {
-    @apply flex w-full max-w-[650px] flex-col gap-10 pb-8 sm:pb-9 md:gap-14 md:pb-10;
+    @apply flex w-full max-w-[650px] flex-col items-center justify-center gap-10 pb-8 sm:pb-9 md:gap-14 md:pb-10;
   }
 }
 
@@ -72,7 +72,7 @@
   /* SkillsView.vue */
 
   .skills {
-    @apply cursor-default select-none items-center justify-center;
+    @apply cursor-default select-none;
   }
 
   .skills-icon {
@@ -84,7 +84,7 @@
   /* ProjectsView.vue */
 
   .projects {
-    @apply items-center justify-center;
+    @apply max-w-[800px];
   }
 
   .project-card::before,

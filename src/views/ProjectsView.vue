@@ -5,7 +5,7 @@
     </div>
 
     <ul
-      class="projects-list flex w-full flex-col items-center justify-center gap-6 sm:gap-7 md:gap-8"
+      class="projects-list flex w-full flex-wrap items-center justify-center gap-6 sm:gap-7 md:gap-8"
     >
       <li
         v-for="repo in repos"
