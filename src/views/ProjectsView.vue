@@ -84,44 +84,23 @@ import { ref, onMounted } from 'vue'
 const repos = ref([])
 
 const getRepoData = async () => {
-  const [resourcesResponse, movieSearchResponse, userCardsResponse] = await Promise.all([
-    fetch('https://api.github.com/repos/emr3rden/Front-End-Development-Resources'),
-    fetch('https://api.github.com/repos/emr3rden/VueJS-Movie-Search'),
-    fetch('https://api.github.com/repos/emr3rden/VueJS-User-Profile-Cards')
-  ])
+  const response = await fetch('https://api.github.com/users/emr3rden/repos')
 
-  const [resourcesData, movieSearchData, userCardsData] = await Promise.all([
-    resourcesResponse.json(),
-    movieSearchResponse.json(),
-    userCardsResponse.json()
-  ])
-
-  repos.value.push(
-    {
-      url: resourcesData.html_url,
-      live: resourcesData.homepage,
-      name: resourcesData.name,
-      desc: resourcesData.description,
-      stars: resourcesData.stargazers_count,
-      img: 'https://github.com/emr3rden/Front-End-Development-Resources/blob/main/thumbnail/Front-End-Development-Resources.png?raw=true'
-    },
-    {
-      url: movieSearchData.html_url,
-      live: movieSearchData.homepage,
-      name: movieSearchData.name,
-      desc: movieSearchData.description,
-      stars: movieSearchData.stargazers_count,
-      img: 'https://github.com/emr3rden/VueJS-Movie-Search/blob/main/thumbnail/VueJS-Movie-Search.png?raw=true'
-    },
-    {
-      url: userCardsData.html_url,
-      live: userCardsData.homepage,
-      name: userCardsData.name,
-      desc: userCardsData.description,
-      stars: userCardsData.stargazers_count,
-      img: 'https://github.com/emr3rden/VueJS-User-Profile-Cards/blob/main/thumbnail/VueJS-User-Profile-Cards.png?raw=true'
-    }
+  const data = (await response.json()).filter((repo) =>
+    ['project', 'resource', 'study'].some((topic) => repo.topics.includes(topic))
   )
+
+  repos.value = data
+    .map((repo) => ({
+      url: repo.html_url,
+      live: repo.homepage,
+      name: repo.name,
+      desc: repo.description,
+      stars: repo.stargazers_count,
+      topics: repo.topics,
+      img: `https://github.com/emr3rden/${repo.name}/blob/main/thumbnail/${repo.name}.png?raw=true`
+    }))
+    .sort((a, b) => b.stars - a.stars)
 }
 
 onMounted(() => {
