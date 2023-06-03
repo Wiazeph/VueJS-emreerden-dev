@@ -20,7 +20,6 @@
   .hello,
   .whoami,
   .skills,
-  .portfolio,
   .tools {
     @apply flex w-full max-w-[650px] flex-col items-center justify-center gap-10 pb-8 sm:pb-9 md:gap-14 md:pb-10;
   }
@@ -29,10 +28,6 @@
 @layer components {
   .skill-card {
     @apply flex h-14 w-full min-w-[200px] max-w-[240px] animate-scaler items-center justify-center gap-3 rounded-lg border border-gray-600 bg-[#2a2a2a] shadow-lg md:h-16;
-  }
-
-  .project-card {
-    @apply relative h-[265px] w-full min-w-[330px] max-w-[350px] overflow-hidden rounded-lg border border-gray-600 bg-cover bg-center bg-no-repeat shadow-lg;
   }
 }
 
@@ -80,52 +75,6 @@
   }
 
   /* SkillsView.vue */
-
-  /* PortfolioView.vue */
-
-  .portfolio {
-    @apply max-w-[800px];
-  }
-
-  .project-card::before,
-  .project-card::after {
-    @apply absolute left-0 z-10 h-full w-[calc(100%+10px)] bg-[#222222] transition duration-500 content-[''];
-  }
-
-  .project-card::before {
-    @apply -top-5 -translate-y-full;
-  }
-
-  .project-card:before {
-    clip-path: polygon(0 0, 100% 0, 100% 45%, 0% 100%);
-  }
-
-  .project-card::after {
-    @apply -bottom-5 translate-y-full;
-  }
-
-  .project-card:after {
-    clip-path: polygon(0 55%, 100% 0, 100% 100%, 0% 100%);
-  }
-
-  .project-card:hover::before,
-  .project-card:hover::after {
-    @apply translate-y-0;
-  }
-
-  .project-card:hover .project-info {
-    @apply opacity-100 delay-300;
-  }
-
-  .project-name {
-    @apply relative w-fit text-lg;
-  }
-
-  .project-link {
-    @apply flex h-10 w-fit cursor-pointer select-none items-center gap-2 rounded-md border border-gray-600 bg-[#222222] px-3 shadow-pink-400 transition duration-300 ease-in-out hover:border-pink-400 hover:text-pink-400 hover:shadow-[0px_0px_10px];
-  }
-
-  /* PortfolioView.vue */
 
   .animation-delay-02 {
     animation-delay: 0.2s;

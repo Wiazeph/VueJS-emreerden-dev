@@ -11,7 +11,8 @@
     </div>
 
     <div class="hobbies flex flex-col gap-5">
-      <span class="select-none text-sm text-gray-400">What I like to do and my hobbies are:</span>
+      <div class="select-none text-sm text-gray-400">What I like to do and my hobbies are:</div>
+
       <ul class="flex flex-col gap-6 sm:gap-7 md:gap-8">
         <li>
           I love watching Movies and TV Series. And I like to talk to people about them. If you want

@@ -2,9 +2,10 @@
 
 <template>
   <main class="skills">
-    <span class="text-center tracking-wide underline decoration-wavy sm:text-lg md:text-xl"
-      >Skills I know and currently continue to learn</span
-    >
+    <div class="text-center tracking-wide underline decoration-wavy sm:text-lg md:text-xl">
+      Skills I know and currently continue to learn
+    </div>
+
     <ul class="flex w-full flex-wrap items-center justify-center gap-6 sm:gap-7 md:gap-8">
       <li class="skill-card animation-delay-02">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" class="skills-icon">
