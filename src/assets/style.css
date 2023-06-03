@@ -20,7 +20,7 @@
   .hello,
   .whoami,
   .skills,
-  .projects,
+  .portfolio,
   .tools {
     @apply flex w-full max-w-[650px] flex-col items-center justify-center gap-10 pb-8 sm:pb-9 md:gap-14 md:pb-10;
   }
@@ -81,9 +81,9 @@
 
   /* SkillsView.vue */
 
-  /* ProjectsView.vue */
+  /* PortfolioView.vue */
 
-  .projects {
+  .portfolio {
     @apply max-w-[800px];
   }
 
@@ -125,7 +125,7 @@
     @apply flex h-10 w-fit cursor-pointer select-none items-center gap-2 rounded-md border border-gray-600 bg-[#222222] px-3 shadow-pink-400 transition duration-300 ease-in-out hover:border-pink-400 hover:text-pink-400 hover:shadow-[0px_0px_10px];
   }
 
-  /* ProjectsView.vue */
+  /* PortfolioView.vue */
 
   .animation-delay-02 {
     animation-delay: 0.2s;

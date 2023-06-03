@@ -1,5 +1,5 @@
 <template>
-  <main class="projects">
+  <main class="portfolio">
     <div v-if="!repos || repos.length === 0" class="text-xl text-pink-400 sm:text-2xl md:text-4xl">
       Loading...
     </div>
