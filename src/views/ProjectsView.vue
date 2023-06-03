@@ -79,7 +79,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue'
+import { ref, onMounted, computed } from 'vue'
 
 const repos = ref([])
 
@@ -101,6 +101,14 @@ const getRepoData = async () => {
       img: `https://github.com/emr3rden/${repo.name}/blob/main/thumbnail/${repo.name}.png?raw=true`
     }))
     .sort((a, b) => b.stars - a.stars)
+}
+
+const projectRepos = computed(() => filterRepos('project'))
+const studyRepos = computed(() => filterRepos('study'))
+const resourceRepos = computed(() => filterRepos('resource'))
+
+function filterRepos(topic) {
+  return repos.value.filter((repo) => repo.topics.includes(topic))
 }
 
 onMounted(() => {
