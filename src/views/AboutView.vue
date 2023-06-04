@@ -44,3 +44,13 @@
     </div>
   </main>
 </template>
+
+<style scoped>
+@tailwind utilities;
+
+@layer utilities {
+  .whoami-link {
+    @apply underline transition ease-in-out hover:text-pink-400;
+  }
+}
+</style>

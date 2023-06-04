@@ -20,14 +20,30 @@ import { RouterLink, RouterView } from 'vue-router'
   </router-view>
 </template>
 
-<style>
-.fade-enter-active,
-.fade-leave-active {
-  transition: opacity 0.15s ease-in-out;
-}
+<style scoped>
+@tailwind utilities;
 
-.fade-enter-from,
-.fade-leave-to {
-  opacity: 0;
+@layer utilities {
+  .nav-bar {
+    @apply flex select-none gap-4 md:gap-8;
+  }
+
+  .nav-bar-link {
+    @apply transition ease-in-out hover:text-pink-300;
+  }
+
+  .nav-bar-link.router-link-active {
+    @apply text-pink-400;
+  }
+
+  .fade-enter-active,
+  .fade-leave-active {
+    transition: opacity 0.15s ease-in-out;
+  }
+
+  .fade-enter-from,
+  .fade-leave-to {
+    opacity: 0;
+  }
 }
 </style>

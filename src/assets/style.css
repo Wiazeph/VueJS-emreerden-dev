@@ -1,6 +1,4 @@
 @tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 @layer base {
   html,
@@ -22,82 +20,5 @@
   .skills,
   .tools {
     @apply flex w-full max-w-[650px] flex-col items-center justify-center gap-10 pb-8 sm:pb-9 md:gap-14 md:pb-10;
-  }
-}
-
-@layer components {
-  .skill-card {
-    @apply flex h-14 w-full min-w-[200px] max-w-[240px] animate-scaler items-center justify-center gap-3 rounded-lg border border-gray-600 bg-[#2a2a2a] shadow-lg md:h-16;
-  }
-}
-
-@layer utilities {
-  /* NavigationBar.vue */
-
-  .nav-bar {
-    @apply flex select-none gap-4 md:gap-8;
-  }
-
-  .nav-bar-link {
-    @apply transition ease-in-out hover:text-pink-300;
-  }
-
-  .nav-bar-link.router-link-active {
-    @apply text-pink-400;
-  }
-
-  /* NavigationBar.vue */
-
-  /* HomeView.vue */
-
-  .socials-link {
-    @apply inline-block h-6 w-6 transition ease-in-out;
-  }
-
-  /* HomeView.vue */
-
-  /* AboutView.vue */
-
-  .whoami-link {
-    @apply underline transition ease-in-out hover:text-pink-400;
-  }
-
-  /* AboutView.vue */
-
-  /* SkillsView.vue */
-
-  .skills {
-    @apply cursor-default select-none;
-  }
-
-  .skills-icon {
-    @apply h-6 w-6;
-  }
-
-  /* SkillsView.vue */
-
-  .animation-delay-02 {
-    animation-delay: 0.2s;
-  }
-  .animation-delay-04 {
-    animation-delay: 0.4s;
-  }
-  .animation-delay-06 {
-    animation-delay: 0.6s;
-  }
-  .animation-delay-08 {
-    animation-delay: 0.8s;
-  }
-  .animation-delay-10 {
-    animation-delay: 1s;
-  }
-  .animation-delay-12 {
-    animation-delay: 1.2s;
-  }
-  .animation-delay-14 {
-    animation-delay: 1.4s;
-  }
-  .animation-delay-16 {
-    animation-delay: 1.6s;
   }
 }

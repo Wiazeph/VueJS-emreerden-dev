@@ -93,3 +93,13 @@
     </div>
   </main>
 </template>
+
+<style scoped>
+@tailwind utilities;
+
+@layer utilities {
+  .socials-link {
+    @apply inline-block h-6 w-6 transition ease-in-out;
+  }
+}
+</style>

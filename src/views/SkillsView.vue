@@ -137,3 +137,49 @@
     </ul>
   </main>
 </template>
+
+<style scoped>
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .skill-card {
+    @apply flex h-14 w-full min-w-[200px] max-w-[240px] animate-scaler items-center justify-center gap-3 rounded-lg border border-gray-600 bg-[#2a2a2a] shadow-lg md:h-16;
+  }
+}
+
+@layer utilities {
+  .skills {
+    @apply cursor-default select-none;
+  }
+
+  .skills-icon {
+    @apply h-6 w-6;
+  }
+
+  .animation-delay-02 {
+    animation-delay: 0.2s;
+  }
+  .animation-delay-04 {
+    animation-delay: 0.4s;
+  }
+  .animation-delay-06 {
+    animation-delay: 0.6s;
+  }
+  .animation-delay-08 {
+    animation-delay: 0.8s;
+  }
+  .animation-delay-10 {
+    animation-delay: 1s;
+  }
+  .animation-delay-12 {
+    animation-delay: 1.2s;
+  }
+  .animation-delay-14 {
+    animation-delay: 1.4s;
+  }
+  .animation-delay-16 {
+    animation-delay: 1.6s;
+  }
+}
+</style>
