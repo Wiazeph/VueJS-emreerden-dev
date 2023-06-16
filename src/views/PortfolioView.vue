@@ -130,11 +130,11 @@ onMounted(() => {
 
 @layer utilities {
   .portfolio {
-    @apply flex w-full max-w-[800px] flex-col items-center justify-center gap-14 pb-8 sm:pb-9 md:gap-16 md:pb-10;
+    @apply flex w-full max-w-[800px] flex-col items-center justify-center gap-8 pb-8 sm:pb-9 md:pb-10;
   }
 
   .section-desc {
-    @apply mb-6 select-none text-center text-lg capitalize tracking-wide underline decoration-wavy sm:mb-7 sm:text-xl md:mb-8 md:text-2xl;
+    @apply mb-8 select-none text-center text-lg capitalize tracking-wide underline decoration-wavy sm:text-xl md:text-2xl;
   }
 
   .section-load {
