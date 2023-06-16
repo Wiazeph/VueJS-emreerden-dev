@@ -6,14 +6,32 @@
       class="name-title flex flex-col items-center gap-3 font-semibold tracking-wider sm:gap-4 md:gap-5"
     >
       <span class="text-lg text-gray-400 sm:text-xl md:text-2xl">Hi 👋, I am</span>
-      <h1 class="font-Caveat text-center text-6xl md:text-7xl">Emre Erden</h1>
+      <h1 class="text-center font-Caveat text-6xl md:text-7xl">Emre Erden</h1>
       <h2 class="text-xl text-pink-400 sm:text-2xl md:text-3xl">Front-End Developer</h2>
     </div>
 
-    <div class="summary text-center md:text-lg">
-      I'm working to be an experienced developer in the Front-End world. In this profession, I'm
-      open to learning and improving myself. I enjoy learning new things and constantly improving
-      myself.
+    <div class="summary flex flex-col items-center gap-5">
+      <div class="text-center md:text-lg">
+        I'm working to be an experienced developer in the Front-End world. In this profession, I'm
+        open to learning and improving myself. I enjoy learning new things and constantly improving
+        myself.
+      </div>
+
+      <div
+        class="cv flex items-center justify-center gap-3 rounded-lg border border-gray-600 bg-[#2a2a2a] px-5 py-3 text-sm shadow-lg"
+      >
+        <a
+          href="https://flowcv.com/resume/l3ncgjown0"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="cv-btn"
+          >View CV</a
+        >
+        <div class="border border-gray-50"></div>
+        <a href="../../public/Emre_Erden_CV.pdf" download="Emre_Erden_CV.pdf" class="cv-btn"
+          >Download CV</a
+        >
+      </div>
     </div>
 
     <div class="socials flex flex-col items-center gap-5">
@@ -98,6 +116,10 @@
 @tailwind utilities;
 
 @layer utilities {
+  .cv-btn {
+    @apply cursor-pointer transition duration-300 ease-in-out hover:text-pink-400;
+  }
+
   .socials-link {
     @apply inline-block h-6 w-6 transition ease-in-out;
   }
