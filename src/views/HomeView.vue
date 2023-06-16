@@ -6,7 +6,7 @@
       class="name-title flex flex-col items-center gap-3 font-semibold tracking-wider sm:gap-4 md:gap-5"
     >
       <span class="text-lg text-gray-400 sm:text-xl md:text-2xl">Hi 👋, I am</span>
-      <h1 class="text-center text-5xl md:text-6xl">Emre Erden</h1>
+      <h1 class="font-Caveat text-center text-6xl md:text-7xl">Emre Erden</h1>
       <h2 class="text-xl text-pink-400 sm:text-2xl md:text-3xl">Front-End Developer</h2>
     </div>
 

@@ -6,7 +6,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        Heebo: ['Heebo', 'sans-serif']
+        Heebo: ['Heebo', 'sans-serif'],
+        Caveat: ['Caveat', 'cursive']
       },
 
       keyframes: {
