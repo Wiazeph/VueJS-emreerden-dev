@@ -28,7 +28,7 @@
           >View CV</a
         >
         <div class="border border-gray-50"></div>
-        <a href="../../public/Emre_Erden_CV.pdf" download="Emre_Erden_CV.pdf" class="cv-btn"
+        <a href="Emre_Erden_CV.pdf" target="_blank" download="Emre_Erden_CV.pdf" class="cv-btn"
           >Download CV</a
         >
       </div>
