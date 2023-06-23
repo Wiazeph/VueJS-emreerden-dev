@@ -9,7 +9,7 @@ import { RouterLink, RouterView } from 'vue-router'
       <RouterLink to="/whoami" class="nav-bar-link">Whoami</RouterLink>
       <RouterLink to="/skills" class="nav-bar-link">Skills</RouterLink>
       <RouterLink to="/portfolio" class="nav-bar-link">Portfolio</RouterLink>
-      <RouterLink to="/tools" class="nav-bar-link">Tools</RouterLink>
+      <!-- <RouterLink to="/tools" class="nav-bar-link">Tools</RouterLink> -->
     </nav>
   </header>
 
