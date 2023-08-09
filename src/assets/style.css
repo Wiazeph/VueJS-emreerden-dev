@@ -12,7 +12,7 @@
   }
 
   #app {
-    @apply container mx-auto flex flex-col items-center gap-14 px-4 pt-8 sm:px-8 sm:pt-9 md:gap-16 md:px-12 md:pt-10 lg:gap-20 lg:px-16 xl:gap-24 xl:px-20;
+    @apply container mx-auto flex flex-col items-center gap-14 px-4 pt-8 sm:px-8 sm:pt-9 md:gap-16 md:px-12 md:pt-10 lg:gap-[72px] lg:px-16 xl:px-20;
   }
 
   .hello,

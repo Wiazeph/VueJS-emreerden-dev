@@ -111,6 +111,22 @@
         <span>JavaScript</span>
       </li>
       <li class="skill-card animation-delay-14">
+        <svg
+          class="skills-icon text-[#149eca]"
+          viewBox="-10.5 -9.45 21 18.9"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle cx="0" cy="0" r="2" fill="currentColor"></circle>
+          <g stroke="currentColor" stroke-width="1" fill="none">
+            <ellipse rx="10" ry="4.5"></ellipse>
+            <ellipse rx="10" ry="4.5" transform="rotate(60)"></ellipse>
+            <ellipse rx="10" ry="4.5" transform="rotate(120)"></ellipse>
+          </g>
+        </svg>
+        <span>React</span>
+      </li>
+      <li class="skill-card animation-delay-16">
         <svg viewBox="0 0 128 128" data-v-ff3ee1d1="" class="skills-icon">
           <path
             fill="#42b883"
@@ -123,9 +139,9 @@
             data-v-ff3ee1d1=""
           ></path>
         </svg>
-        <span>Vue.js</span>
+        <span>Vue</span>
       </li>
-      <li class="skill-card animation-delay-16">
+      <li class="skill-card animation-delay-18">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" class="skills-icon">
           <path
             fill="#F34F29"
@@ -180,6 +196,9 @@
   }
   .animation-delay-16 {
     animation-delay: 1.6s;
+  }
+  .animation-delay-18 {
+    animation-delay: 1.8s;
   }
 }
 </style>
