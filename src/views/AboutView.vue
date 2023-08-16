@@ -17,14 +17,14 @@
         <li>
           I love watching Movies and TV Series. And I like to talk to people about them. If you want
           to see the movies I watched and my watch list:
-          <a target="_blank" href="https://letterboxd.com/emr3rden/" class="whoami-link"
+          <a target="_blank" href="https://letterboxd.com/Wiazeph/" class="whoami-link"
             >My Letterboxd Account</a
           >
         </li>
         <li>
           I love playing computer games since childhood. It's something I can never give up. If you
           are interested in games, you can check
-          <a target="_blank" href="https://steamcommunity.com/id/WiaMoria" class="whoami-link"
+          <a target="_blank" href="https://steamcommunity.com/id/Wiazeph" class="whoami-link"
             >My Steam Account</a
           >
           for the games I play and add me as a friend.

@@ -39,7 +39,7 @@
       <ul class="flex flex-wrap justify-center gap-5 gap-y-3 text-2xl sm:gap-6 md:gap-7">
         <li>
           <a
-            href="https://linkedin.com/in/emr3rden"
+            href="https://linkedin.com/in/Wiazeph"
             target="_blank"
             rel="noopener noreferrer"
             class="socials-link hover:text-[#0A66C2]"
@@ -53,7 +53,7 @@
         </li>
         <li>
           <a
-            href="https://github.com/emr3rden"
+            href="https://github.com/Wiazeph"
             target="_blank"
             rel="noopener noreferrer"
             class="socials-link hover:text-gray-600"
@@ -67,7 +67,7 @@
         </li>
         <li>
           <a
-            href="https://codepen.io/emr3rden"
+            href="https://codepen.io/Wiazeph"
             target="_blank"
             rel="noopener noreferrer"
             class="socials-link hover:text-gray-600"
@@ -81,7 +81,7 @@
         </li>
         <li>
           <a
-            href="https://twitter.com/emr3rden"
+            href="https://twitter.com/Wiazeph"
             target="_blank"
             rel="noopener noreferrer"
             class="socials-link hover:text-[#1DA1F2]"
@@ -95,7 +95,7 @@
         </li>
         <li>
           <a
-            href="https://instagram.com/emr3rden"
+            href="https://instagram.com/Wiazeph"
             target="_blank"
             rel="noopener noreferrer"
             class="socials-link hover:text-[#c32aa3]"
