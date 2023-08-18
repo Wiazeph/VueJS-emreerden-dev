@@ -4,7 +4,7 @@ import { ref, onMounted, computed } from 'vue'
 const repos = ref([])
 
 const getRepoData = async () => {
-  const response = await fetch('https://api.github.com/users/emr3rden/repos')
+  const response = await fetch('https://api.github.com/users/Wiazeph/repos')
 
   const data = (await response.json()).filter((repo) =>
     ['project', 'resource', 'study'].some((topic) => repo.topics.includes(topic))
@@ -18,7 +18,7 @@ const getRepoData = async () => {
       desc: repo.description,
       stars: repo.stargazers_count,
       topics: repo.topics,
-      img: `https://github.com/emr3rden/${repo.name}/blob/main/thumbnail/${repo.name}.png?raw=true`
+      img: `https://github.com/Wiazeph/${repo.name}/blob/main/thumbnail/${repo.name}.png?raw=true`
     }))
     .sort((a, b) => b.stars - a.stars)
 }
